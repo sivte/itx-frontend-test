@@ -1,5 +1,7 @@
 # Frontend Test ITX
 
+🚀 **Demo:** [https://itx-frontend-test.vercel.app/](https://itx-frontend-test.vercel.app/)
+
 Web application for purchasing mobile devices, built with React and TypeScript. The project implements a modern SPA architecture with state management, caching system, and data validation.
 
 ## System Requirements
@@ -120,7 +122,7 @@ The application consumes a REST API with the following endpoints:
 - GET /api/product/:id - Gets details of a specific product
 - POST /api/cart - Adds a product to the cart
 
-The base URL should be configured to https://itx-frontend-test.onrender.com
+The base URL should be configured to https://itx-frontend-test.onrender.com/api
 
 All endpoints are centralized in the services file, avoiding magic strings and facilitating maintenance.
 
